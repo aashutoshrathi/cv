@@ -53,6 +53,7 @@ export const RESUME_DATA = {
       title: "Senior Full Stack Developer",
       logo: ParabolLogo,
       start: "2021",
+      end: "Current",
       description:
         "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
     },
