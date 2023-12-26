@@ -1,7 +1,9 @@
 import ConsultlyLogo from "../images/logos/consultly.svg";
 import ClevertechLogo from "../images/logos/clevertech.png";
 import ParabolLogo from "../images/logos/parabol.svg";
-import { GithubIcon, LinkedinIcon, TwitterIcon } from "lucide-react";
+import { GitHubIcon } from "../components/icons/GitHubIcon";
+import { LinkedInIcon } from "../components/icons/LinkedInIcon";
+import { XIcon } from "../components/icons/XIcon";
 
 export const RESUME_DATA = {
   name: "Aashutosh Rathi",
@@ -21,17 +23,17 @@ export const RESUME_DATA = {
       {
         name: "GitHub",
         url: "https://github.com/aashutoshrathi",
-        icon: GithubIcon,
+        icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/aashutoshrathi/",
-        icon: LinkedinIcon,
+        icon: LinkedInIcon,
       },
       {
         name: "X",
         url: "https://x.com/AashutoshRathi",
-        icon: TwitterIcon,
+        icon: XIcon,
       },
     ],
   },
